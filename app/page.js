@@ -2,6 +2,7 @@ import ContactLink from "@/components/links/ContactLink";
 import MercadoPagoLink from "@/components/links/MercadoPagoLink";
 import ReviewList from "@/components/reviews/ReviewList";
 import Image from "next/image";
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       </main>
       <section className="px-7">
         <ReviewList />
+      <Analytics />
       </section>
     </div>
   )
