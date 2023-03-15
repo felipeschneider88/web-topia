@@ -5,7 +5,7 @@ import React from 'react'
 const MercadoPagoLink = () => {
   return (
     <Link
-      href="https://mpago.la/2TSFuMd"
+      href="https://mpago.la/26CcQRH"
       target="_blank"
       rel="noopener noreferrer"
       className='inline-flex items-center gap-3 py-1 px-3 rounded bg-[#00B1EA]'
