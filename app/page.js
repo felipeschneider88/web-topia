@@ -3,10 +3,12 @@ import MercadoPagoLink from "@/components/links/MercadoPagoLink";
 import ReviewList from "@/components/reviews/ReviewList";
 import Image from "next/image";
 import { Analytics } from '@vercel/analytics/react';
+import MicrosoftClarity from "./msclarity";
 
 export default function Home() {
   return (
     <div>
+      <MicrosoftClarity />
       <main className="flex-1 flex flex-col-reverse md:flex-row items-center justify-center gap-16 px-7 mb-10">
         <div className="flex flex-col gap-1 text-[#333]">
           <h1 className="text-3xl sm:max-w-sm font-semibold mb-3">Aventúrate en "Topia" de Valeria Galbarini</h1>
