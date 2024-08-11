@@ -1,12 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body
-{
+
+body {
   background: rgb(157, 196, 218);
 }
-div
-{
+
+div {
   background: rgb(157, 196, 218);
 }
-  
+
+/* Ensure the submenu is hidden by default */
+.group-hover .hidden {
+  display: none;
+}
+
+/* Show the submenu when the parent is hovered */
+.group:hover .hidden {
+  display: block;
+}
